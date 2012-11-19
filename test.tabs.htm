@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+	<meta charset="UTF-8" />
+	<title>Demo 'jtabs'</title>
+	<link rel='stylesheet' href='jtabs.css' type='text/css' media='all' />
+</head>
+<body>
+	
+	<div id="sidebar" style="position:absolute;right:10px; top:100px;"></div>
+
+<script src="jtabs.js"></script>
+<script>
+jtabs.create(
+	['CSS', 'eins'], 
+	['JavaScript', '2222'], 
+	['Images', 'drei <br/><br/><br/> 33']
+).appendTo(document.getElementById('sidebar'));
+</script>
+</body>
+</html>
